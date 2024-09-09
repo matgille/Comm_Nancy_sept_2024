@@ -82,7 +82,7 @@
       <file>diapos.bcf</file>
     </requires>
     <requires type="editable">
-      <file>/home/mgl/Bureau/These/Edition/hyperregimiento-de-los-principes/Dedans/XML/corpus/biblio.bib</file>
+      <file>biblio.bib</file>
     </requires>
   </external>
 </requests>

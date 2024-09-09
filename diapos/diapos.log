@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.15)  9 SEP 2024 19:10
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.15)  10 SEP 2024 00:12
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1816,7 +1816,7 @@ File: img/base_a.png Graphic file (type bmp)
 File: img/YOLO_identification.png Graphic file (type bmp)
 <img/YOLO_identification.png>
 
-Overfull \vbox (8.1536pt too high) detected at line 156
+Overfull \vbox (9.92606pt too high) detected at line 164
  []
 
 [6
@@ -1834,53 +1834,88 @@ Overfull \vbox (8.1536pt too high) detected at line 156
 ] (./diapos.toc) [10
 
 
-] [11
+]
+File: img/snowball.png Graphic file (type bmp)
+<img/snowball.png>
+ [11
 
 
-] [12
+]
+File: img/snowball.png Graphic file (type bmp)
+<img/snowball.png>
+ [12
 
 
-] [13
+]
+File: img/snowball.png Graphic file (type bmp)
+<img/snowball.png>
+ [13
 
 
-] [14
+]
+File: img/snowball.png Graphic file (type bmp)
+<img/snowball.png>
+ [14
 
 
-] [15
+]
+File: img/snowball.png Graphic file (type bmp)
+<img/snowball.png>
+ [15
 
 
 ] [16
 
 
-] [17
+]
+File: img/catmus.png Graphic file (type bmp)
+<img/catmus.png>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 231
+.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 231
+.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [17
 
 
 ] [18
 
 
 ]
-(./diapos.toc) [19
+[19
 
 
 ] [20
 
 
+] (./diapos.toc) [21
+
+
+] [22
+
+
 ]
 File: img/tei_retroconvertible.png Graphic file (type bmp)
 <img/tei_retroconvertible.png>
- [21
+ [23
 
 
 ]
 File: img/alto.png Graphic file (type bmp)
 <img/alto.png>
- [22
+ [24
 
 
 ]
 File: img/segmentation_lignes.png Graphic file (type bmp)
 <img/segmentation_lignes.png>
- [23
+ [25
 
 
 ]
@@ -1893,10 +1928,10 @@ File: img/CCC_MSS_283_14r.png Graphic file (type bmp)
 File: img/Valencia_BH-Ms-0594_23r.png Graphic file (type bmp)
 <img/Valencia_BH-Ms-0594_23r.png>
 
-Overfull \vbox (7.86847pt too high) detected at line 296
+Overfull \vbox (10.80482pt too high) detected at line 379
  []
 
-[24
+[26
 
 
 ]
@@ -1904,34 +1939,7 @@ File: img/ligne_1.png Graphic file (type bmp)
 <img/ligne_1.png>
 File: img/ligne_2.png Graphic file (type bmp)
 <img/ligne_2.png>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 325
-.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 325
-.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [25
-
-
-]
-File: img/ligne_1.png Graphic file (type bmp)
-<img/ligne_1.png>
-File: img/ligne_2.png Graphic file (type bmp)
-<img/ligne_2.png>
- [26
-
-
-]
-File: img/ligne_1.png Graphic file (type bmp)
-<img/ligne_1.png>
-File: img/ligne_2.png Graphic file (type bmp)
-<img/ligne_2.png>
-
-[27
+ [27
 
 
 ]
@@ -1942,46 +1950,72 @@ File: img/ligne_2.png Graphic file (type bmp)
  [28
 
 
-] [29
+]
+File: img/ligne_1.png Graphic file (type bmp)
+<img/ligne_1.png>
+File: img/ligne_2.png Graphic file (type bmp)
+<img/ligne_2.png>
+ [29
+
+
+]
+File: img/ligne_1.png Graphic file (type bmp)
+<img/ligne_1.png>
+File: img/ligne_2.png Graphic file (type bmp)
+<img/ligne_2.png>
+ [30
+
+
+]
+File: img/ligne_1.png Graphic file (type bmp)
+<img/ligne_1.png>
+File: img/ligne_2.png Graphic file (type bmp)
+<img/ligne_2.png>
+ [31
+
+
+]
+File: img/table_abreviation.png Graphic file (type bmp)
+<img/table_abreviation.png>
+ [32
+
+
+] [33
 
 
 ]
 File: img/avant_correction.png Graphic file (type bmp)
 <img/avant_correction.png>
 
-Overfull \vbox (33.02905pt too high) detected at line 349
+Overfull \vbox (5.28235pt too high) detected at line 435
  []
 
-[30
+[34
 
 
 ]
 File: img/apres_correction.png Graphic file (type bmp)
 <img/apres_correction.png>
 
-Overfull \vbox (8.26845pt too high) detected at line 365
+Overfull \vbox (8.26845pt too high) detected at line 451
  []
 
-[31
+[35
 
 
-] (./diapos.toc) [32
+] (./diapos.toc) [36
 
 
-] [33
+] [37
 
 
-] [34
+] [38
 
 
-] [35
+] [39
 
 
-]
-
-LaTeX Warning: Empty bibliography on input line 407.
-
-[36
+] [40
 
 
 ]
@@ -1994,23 +2028,24 @@ LaTeX Warning: Empty bibliography on input line 407.
 \tf@snm=\write9
 \openout9 = `diapos.snm'.
 
- [37
+ [41
+
 
 
 ] (./diapos.aux)
 Package rerunfilecheck Info: File `diapos.out' has not changed.
-(rerunfilecheck)             Checksum: A53818CAAC2A74398F80B8594C8369A8;2700.
+(rerunfilecheck)             Checksum: EDD07B5B247340C6816CA2004F6F4A3B;2587.
 Package logreq Info: Writing requests to 'diapos.run.xml'.
 \openout1 = `diapos.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51929 strings out of 476709
- 1251367 string characters out of 5804145
- 2188321 words of memory out of 5000000
- 71211 multiletter control sequences out of 15000+600000
- 517543 words of font info for 82 fonts, out of 8000000 for 9000
+ 52257 strings out of 476709
+ 1259787 string characters out of 5804145
+ 2219286 words of memory out of 5000000
+ 71527 multiletter control sequences out of 15000+600000
+ 518228 words of font info for 90 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,15n,122p,869b,4053s stack positions out of 10000i,1000n,20000p,10000000b,200000s
+ 128i,15n,122p,1108b,5698s stack positions out of 10000i,1000n,20000p,10000000b,200000s
 
-Output written on diapos.pdf (36 pages).
+Output written on diapos.xdv (40 pages, 798164 bytes).

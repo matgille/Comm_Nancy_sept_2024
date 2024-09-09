@@ -25,12 +25,12 @@
 \setbeamertemplate{caption}{\insertcaption\par}
 
 \usepackage[datamodel=thesis,citestyle=authoryear,isbn=true,
-doi=true,backend=biber,language=french,url=true,sorting=nty,maxnames=6, maxcitenames=4]{biblatex}
+doi=true,backend=biber,language=french,url=true,sorting=nty,maxnames=99999, maxcitenames=3]{biblatex}
 \renewbibmacro{in:}{}
 \renewcommand*{\bibfont}{\tiny} 
 % http://mcclinews.free.fr/latex/introbeamer/elements_contenu.html
 %\xapptobibmacro{cite}{\setunit{\nametitledelim}\printfield{year}}{}{}
-\addbibresource{/home/mgl/Bureau/These/Edition/hyperregimiento-de-los-principes/Dedans/XML/corpus/biblio.bib}
+\addbibresource{biblio.bib}
 
 \begin{filecontents*}{thesis.dbx}
 \ProvidesFile{thesis.dbx}[2014/06/14 supervisor for theses]
@@ -70,7 +70,7 @@ jointsupervision  = {{codirigée par}{codir\adddotspace }},
   
 % https://tex.stackexchange.com/a/184878 ajout direction thèse
 
-
+\let\cite\parencite
 
 
 
@@ -137,21 +137,29 @@ jointsupervision  = {{codirigée par}{codir\adddotspace }},
 \item Pour l'étude proprement dite du texte
 \item Actuellement, pour des expériences de collation multilingue
 \end{itemize}
+\note{
+\vfill
+Idée de la communication
+\begin{itemize}
+\item Proposer un retour d'expérience
+\item Donner des pistes et mes idées sur les bonnes pratiques en ATR dans une perspective plus globale d'étude et de traitement du texte patrimonial
+\end{itemize}
+\vfill}
 
 \end{frame}
 
 \begin{frame}{Édition critique}
 \begin{figure}
 \includegraphics[width=1\textwidth]{img/base_a.png}
-\caption{Édition critique du \textit{Regimiento de los Prínçipes}, avec collation automatisée. Les témoins A et Z sont issus d'HTR.}
+\caption{Édition critique du \textit{Regimiento de los Prínçipes}, avec collation automatisée. Les témoins A et Z sont issus d'HTR: \cite{gillelevenson_RegimientoPrincipesSa_2023} et \cite{gillelevenson_GeneralOpenDataset_2023}}
 \end{figure}
 \end{frame}
 
 
-\begin{frame}{Études des marques de lecture d'un manuscrit}
+\begin{frame}{Études de la réception d'un manuscrit par ses marques de lecture}
 \begin{figure}
 \includegraphics[width=.5\textwidth, trim={0 53cm 0 5cm}, clip]{img/YOLO_identification.png}
-\caption{Identification automatisée  (avec YOLO v5) de zones de texte marquées par un lecteur. Escorial Ms. K.I.5, fol. 144r}
+\caption{Identification automatisée  (avec YOLO v5) \cite{redmon_YouOnlyLook_2016a} de zones de texte marquées par un lecteur. Escorial Ms. K.I.5, fol. 144r}
 \end{figure}
 \end{frame}
 
@@ -160,8 +168,8 @@ jointsupervision  = {{codirigée par}{codir\adddotspace }},
 
 \begin{itemize}
 \item Trois phases distinctes: segmentation en \textbf{zones}, segmentation en \textbf{lignes}, \textbf{transcription}
-\pause\item Respecter les phases et bien découper le travail permet de gagner du temps in fine
-\pause\item Avec Kraken, pas de transcription globale du texte mais ligne par ligne pour l'instant
+\pause\item Respecter les phases et bien découper le travail permet de gagner du temps \textit{in fine}
+\pause\item Avec Kraken \cite{kiessling_KrakenUniversalText_2019}, pas de transcription globale du texte mais ligne par ligne pour l'instant
 \end{itemize}
 \end{frame}
 
@@ -169,81 +177,153 @@ jointsupervision  = {{codirigée par}{codir\adddotspace }},
 
 \subsection{Penser la production en amont}
 
-\begin{frame}
+\begin{frame}{Penser la production en amont}
 \begin{itemize}
 \item Différencier et hiérarchiser données et modèles et privilégier les premières sur les seconds
-\pause\item Se mettre d'accord en amont de la production (ou via des campagnes d'annotation-test) sur des normes d'annotation (manuel?):
+\pause\item Se mettre d'accord en amont de la production sur des normes d'annotation:
 
 	\begin{itemize}
 	\pause\item Quelle typologie des zones et des lignes utiliser ? Identifier les titres de section ?
 	\pause\item Que faire des abréviations ?
+	\pause\item Éviter à tout prix les modèles \enquote{boule de neige}:
 	\end{itemize}
 \end{itemize}
+\begin{figure}
+    \centering
+    \includegraphics[width=.5\textwidth]{img/snowball.png}
+    \caption{Un cas de modèle produit à partir de données hétérogènes. \cite{pinche_CATMuSMedievalConsistentApproaches_2024}}
+    \label{fig:coloseo}
+\end{figure}
+\note{
+\vfill
+\begin{itemize}
+\item Question de pérennité: les données restent, les modèles disparaissent.
+\end{itemize}
+\vfill
+}
 \end{frame}
 
 
-\subsection{CATMuS, un projet de production collaboratif de données}
+\subsection{CATMuS, un projet de production collaboratif de données d'ATR}
 
-\begin{frame}
+\begin{frame}{CATMuS}
 \begin{itemize}
 \item Volonté autour de 2022 de réunir des producteur.ices de données (philologues) venant d'horizons distincts
-\item Naissance du projet CATMuS
+\item Naissance du projet CATMuS pour \enquote{\textit{Consistent Approaches for Transcribing Manuscripts}}
+\item Le corpus est récemment publié \cite{clerice_CATMuSMedievalMultilingual_2024a}
 \end{itemize}
 \end{frame}
 
 
 \begin{frame}{Statistiques sur le corpus CATMuS}
+\begin{figure}
+    \includegraphics[width=.1\textwidth]{img/catmus.png}
+\end{figure}
 \begin{itemize}
-\item Test
+\item Publié sur HuggingFace: \url{https://huggingface.co/datasets/CATMuS/medieval}
+\item Recueil de 17 dépôts différents, homogénéisés selon les normes du projet
+\item Environ 175.000 lignes transcrites et intégralement corrigées (corpus \textit{gold})
+\item 245 documents différents
+\item 9 langues
+\item Du \textsc{ix}\textsuperscript{e} au \textsc{xv}\textsuperscript{e} siècle, avec une prédominance du bas Moyen Âge (\textsc{xiii}\textsuperscript{e}-\textsc{xv}\textsuperscript{e} siècles)
+\item Corpus encore biaisé en raison de l'histoire du projet
 \end{itemize}
 \end{frame}
 
-\subsection{Concilier l'intérêt particulier et les besoins généraux}
 
 \begin{frame}{Le problème des abréviations, entre usages historiens et usages philologiques}
 
+\color{black}Notre point de vue est celui de philologues:
+\begin{itemize}
+\item Nous considérons cette tâche comme une tâche de TAL plutôt que de vision assistée par ordinateur \cite{clerice_CATMuSMedievalMultilingual_2024a}
+\item Pose des problèmes de \textbf{généralisation};
+\item Pose des problèmes d'\textbf{adaptation}.
+\end{itemize}
+\note{
+\vfill
+\begin{itemize}
+\item Généralisation: le développement des abréviations peut poser problème dans le cadre de corpus multilingue; les résultats sont moins bons en développant les abréviations
+\item Adaptation: le développement des abréviations est dépendant du contexte linguistique et historique du document.
+\end{itemize}
+\vfill
+}
 \end{frame}
 
 
 \begin{frame}{Le choix de la conservation des abréviations}
+ Une norme de transcription graphématique \cite{stutzmann_PaleographieStatistiquePour_2010}:
 \begin{center}
-
-
-
+\begin{itemize}
+\item Réduction des allographes au graphème
+\item Réduction des allographes <i>/<j> et <u>/<v> à <i> et à <u>
+\item Non développement des abréviations
+\item Alignement sur les caractères proposés par la MUFI \cite{haugen_DealingGlyphsCharacters_2013}
+\end{itemize}
 \end{center}
+\end{frame}
+
+
+\subsection{}
+
+
+\begin{frame}{Concilier l'intérêt particulier et les besoins généraux}
+ Une norme de transcription graphématique \cite{stutzmann_PaleographieStatistiquePour_2010}:
+\begin{center}
+\begin{itemize}
+\item Cette solution nous semble être le plus à même de concilier besoins généraux et particulier,
+\item La contrepartie est la nécessité de travailler en aval de l'acquisition du texte pour le normaliser
+\end{itemize}
+\end{center}
+\note{
+\vfill
+\begin{itemize}
+\item Transition: produire des données, c'est bien, mais comment faire après ? Le travail n'est pas du tout fini. Comment corriger le texte ? Comment gérer la segmentation ? Les abréviations ? Qu'est-ce qui change pour l'édition ? 
+\end{itemize}
+\vfill
+}
 \end{frame}
 
 \section{Après l'HTR: tout change / rien ne change}
 
 \subsection{Quand s'arrête la correction ?}
-\begin{frame}
+\begin{frame}{Quand s'arrête la correction ?}
 \begin{center}
 \begin{itemize}
 \item La phase suivant la transcription automatisée sera généralement celle de la transformation en TEI
+\item Plusieurs outils permettent de réaliser cette transformation: \url{https://github.com/Jean-Baptiste-Camps/ALTEI}, \url{https://github.com/chartes/alto2tei}, \url{https://github.com/matgille/alto_to_tei/}
 \item Il restera des erreurs dans les données
-\item Faut-il intégrer ces correction dans les données d'entraînement ? 
+\item Faut-il intégrer les corrections faites dans les données d'entraînement ? 
 \item Si oui, cela suppose de penser en amont une modélisation en TEI qui soit rétroconvertible
 \item En d'autres termes, il faudra conserver un premier état de TEI diplomatique (qui garde les \texttt{tei:lb})
 \end{itemize}
 \end{center}
+\note{
+\vfill
+\begin{itemize}
+\item Suppose d'extraire les lignes pour pouvoir corriger ligne par ligne
+\item La question étant la suivante: attend-on d'être sûr de la qualité de la transcription avant de transformer en TEI ? 
+\end{itemize}
+\vfill
+}
 \end{frame}
 
 
-\begin{frame}{Assurer la rétroconvertibilité ?}
+\begin{frame}{Assurer la rétroconvertibilité}
 \begin{center}
 \begin{figure}
 \includegraphics[width=1\textwidth]{img/tei_retroconvertible.png}
 \caption{Le document TEI avec des identifiants présents dans le fichier ALTO originel}
 \end{figure}
 \end{center}
+
 \end{frame}
 
 
-\begin{frame}{Assurer la rétroconvertibilité ?}
+\begin{frame}{Assurer la rétroconvertibilité}
 \begin{center}
 \begin{figure}
 \includegraphics[width=1\textwidth]{img/alto.png}
-\caption{Le fichier ALTO en question}
+\caption{Le fichier ALTO d'origine}
 \end{figure}
 \end{center}
 \end{frame}
@@ -256,30 +336,33 @@ jointsupervision  = {{codirigée par}{codir\adddotspace }},
 \item Classifier les zones et les lignes lors de la phase d'ATR peut permettre de faciliter la structuration du document:
 \begin{figure}
 \includegraphics[width=.45\textwidth]{img/segmentation_lignes.png}
-\caption{Classification des lignes suivant le vocabulaire contrôlé SegmOnto. En fuchsia: les lignes de type \texttt{DefaultLine}; en jaune, les lignes de type \texttt{Headingline:rubric}}
+\caption{Classification des lignes suivant le vocabulaire contrôlé SegmOnto \cite{gabay_SegmOntoCommonVocabulary_2021}. En fuchsia: les lignes de type \texttt{DefaultLine}; en jaune, les lignes de type \texttt{Headingline:rubric}}
 \end{figure}
 \end{itemize}
 \end{center}
 \note{
 \vfill
-L'exemple donné ici est doublement problématique: le numéro de chapitre est erronné, ce qui peut poser problème si l'on utilise le texte pour numéroter les divisions; en second lieu, l'ordre des lignes est évident pour l'humain mais plus difficile à identifier pour la machine, ce qui peut de même poser problème pour la structuration du texte.
+\begin{itemize}
+\item On utilisera la première ligne de la rubrique (dans la zone de texte principal) pour identifier une borne de division (un chapitre par exemple), et ainsi de suite pour tout le document.
+\item L'exemple donné ici est doublement problématique: le numéro de chapitre est erronné, ce qui peut poser problème si l'on utilise le texte pour numéroter les divisions; en second lieu, l'ordre des lignes est évident pour l'humain mais plus difficile à identifier pour la machine, ce qui peut de même poser problème pour la structuration du texte.
+\end{itemize}
 \vfill
 }
 \end{frame}
 
 
-\subsection{Segmenter le texte et identifier la césure}
-\begin{frame}
+\subsection{Segmenter le texte et identifier la césure à la ligne}
+\begin{frame}{Identifier la césure à la ligne}
 \begin{center}
 \begin{itemize}
 \item Dans les manuscrits médiévaux la césure à la ligne n'est pas systématiquement indiquée
 \item La tâche d'identification de la césure est raisonnablement automatisable
 \end{itemize}
 \begin{figure}
-\includegraphics[width=.33\textwidth]{img/Valladolid_251_17r.png}
-\includegraphics[width=.33\textwidth]{img/Borgh_360_190r.png}
-\includegraphics[width=.33\textwidth]{img/CCC_MSS_283_14r.png}
-\includegraphics[width=.33\textwidth]{img/Valencia_BH-Ms-0594_23r.png}
+\includegraphics[width=.35\textwidth]{img/Valladolid_251_17r.png}
+\includegraphics[width=.27\textwidth]{img/Borgh_360_190r.png}
+\includegraphics[width=.35\textwidth]{img/CCC_MSS_283_14r.png}
+\includegraphics[width=.27\textwidth]{img/Valencia_BH-Ms-0594_23r.png}
 \caption{Valladolid, 251 fol. 17r; Vatican, Borgh. 360, fol. 190r; Cambridge, Corpus Christi College, MS 283, fol 14r; Valencia BH Ms 0594, fol. 23r}
 \end{figure}
 \end{center}
@@ -296,6 +379,7 @@ L'exemple donné ici est doublement problématique: le numéro de chapitre est e
 \end{frame}
 
 \begin{frame}{Segmenter le texte et identifier la césure}
+\color{black}
 \begin{figure}[htp!]
 \begin{center}
 \includegraphics[width=0.5\textwidth]{img/ligne_1.png}
@@ -303,20 +387,13 @@ L'exemple donné ici est doublement problématique: le numéro de chapitre est e
 \caption{Ms. 251, Valladolid, fol. 3v}
 \end{center}
 \end{figure}
-\begin{quote}
 \begin{center}
-\pause\textit{adios ⁊ ganaran gloria perdurable ¶ Et pu\\
-es que asy es los bienes departen se en una ma}
+\pause adios ⁊ ganarã gloĩa ꝑdurable ¶ Et pu\\
+es q̃ asy es los bieñs deꝑrtẽ se en una ma\\
+\pause{\color{black}$\Updownarrow$}\\
+\pause adios ⁊ ganarã gloĩa ꝑdurable ¶ Et \underline{pues} es q̃ asy es los bieñs deꝑrtẽ se en una ma
 \end{center}
-\end{quote}
-\begin{center}
-\pause{\color{black}$\Updownarrow$}
-\end{center}
-\begin{quote}
-\begin{center}
-\pause\textit{adios ⁊ ganaran gloria perdurable ¶ Et \underline{pues} que asy es los bienes departen se en una ma}
-\end{center}
-\end{quote}
+\pause Voir \cite{clerice_EvaluatingDeepLearning_2020} et \url{https://github.com/matgille/boudams_like_tokenizer}
 \note{
 \vfill
 Il suffit donc d'associer deux à deux les lignes (faire des bigrames de lignes) afin d'identifier si la chaîne de caractère de fin de ligne correspond aussi à une fin de mot.
@@ -327,7 +404,15 @@ Il suffit donc d'associer deux à deux les lignes (faire des bigrames de lignes)
 \subsection{Résoudre les abréviations}
 \begin{frame}{Résoudre les abréviations}
 \begin{center}
-
+\begin{itemize}
+\item Le plus \enquote{simple} est d'utiliser une table de conversion à base de règles
+\item Suppose de connaître en amont toutes les abréviations et cas possibles en contexte
+\item Un peu laborieux quand le volume de documents différents est important
+\end{itemize}
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{img/table_abreviation.png}
+\caption{Table d'abréviation. \texttt{<SOT>} et \texttt{<EOT>} viennent marquer un début et une fin de mot}
+\end{figure}
 \end{center}
 \end{frame}
 
@@ -335,15 +420,16 @@ Il suffit donc d'associer deux à deux les lignes (faire des bigrames de lignes)
 \subsection{Et l'édition critique ?}
 
 \begin{frame}{Et l'édition critique ?}
-\begin{center}
+\color{black}\only<1>{L'ATR appelle assez naturellement des méthodes de collation automatisée du texte}
+\only<2>{\begin{center}
 \begin{figure}
-\includegraphics[width=1\textwidth]{img/avant_correction.png}
+\includegraphics[width=.85\textwidth]{img/avant_correction.png}
 \caption{Table d'alignement avant la phase de correction, après segmentation et résolution des abréviations. Gilles de Rome, \textit{De Regimine Principum}, chapitre 1.2.2}
 \end{figure}
-\end{center}
+\end{center}}
 \note{
 \vfill
-Un texte difficilement exploitable, en sortie d'HTR désabrévié.
+Un texte difficilement exploitable, en sortie d'HTR désabrévié, sans correction et avec affinage minimal des modèles. Il reste du travail sur les modèles !
 \vfill
 }
 \end{frame}
@@ -367,30 +453,27 @@ Un texte difficilement exploitable, en sortie d'HTR désabrévié.
 
 \section{Conclusions}
 
-
-\begin{frame}
-\begin{center}
-
-
-\end{center}
-\end{frame}
-
-
 \begin{frame}
 \begin{itemize}
 \item Penser en amont les principes d'annotation est fondamental
 \begin{itemize}
-\item Le Plan de Gestion de Données (PGD)
 \item Identifier les intérêts et les inconvénients de chaque choix en terme de balance intérêt particulier / intérêt général
 \item Lancer de courtes campagnes test pour mettre à l'épreuve les choix d'annotation
-\item Identifier le type d'information nécessaire aux étapes ultérieures de traitement du texte manuscrit ou imprimé
+\item Identifier le type d'information nécessaire aux étapes ultérieures de traitement du texte manuscrit ou imprimé: penser l'ensemble de la production des données
+\item Se mettre en conformité (ou pas) avec les normes existantes et le documenter clairement
 \end{itemize}
 \item Du travail reste à mener
 \begin{itemize}
-\item Sur tout la chaîne post-ATR afin d'arriver à un texte propre
-\item Pour la collation qui suppose un degré d'exactitude plus élevé
+\item Sur tout la chaîne post-ATR afin d'arriver à un texte final plus propre
+\item Pour la collation qui suppose un degré de précision plus élevé des outils d'ATR
 \end{itemize}
+\end{itemize}\note{
+\vfill
+\begin{itemize}
+\item S'appuyer sur un Plan de Gestion de Données (PGD) ?
 \end{itemize}
+\vfill
+}
 \end{frame}
 
 

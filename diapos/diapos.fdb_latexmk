@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber diapos"] 1725899030 "diapos.bcf" "diapos.bbl" "diapos" 1725901832 0
-  "/home/mgl/Bureau/These/Edition/hyperregimiento-de-los-principes/Dedans/XML/corpus/biblio.bib" 1710452006 1251565 7e6c5897dc6112d9dc611b46242291ef ""
-  "diapos.bcf" 1725901821 108427 e8ca96bb2a69c268e32eedf05cc795f5 "xelatex"
+["biber diapos"] 1725919955 "diapos.bcf" "diapos.bbl" "diapos" 1725919974 0
+  "./biblio.bib" 1725919677 34904 5552825bcf7851b1a6b61b7947957270 ""
+  "diapos.bcf" 1725919961 110786 b4c2469bcd7ec0a28b7cb5547a40013e "xelatex"
   (generated)
   "diapos.bbl"
   "diapos.blg"
   (rewritten before read)
-["xdvipdfmx"] 1725901821 "diapos.xdv" "diapos.pdf" "diapos" 1725901832 2
-  "diapos.xdv" 1725901821 554720 27eb962214b61508bedc3eb18ddcfc75 "xelatex"
+["xdvipdfmx"] 1725919961 "diapos.xdv" "diapos.pdf" "diapos" 1725919974 0
+  "diapos.xdv" 1725919961 798164 83044320570bc3208d4260c8b7767a3a "xelatex"
   (generated)
   "diapos.pdf"
   (rewritten before read)
-["xelatex"] 1725901818 "diapos.tex" "diapos.xdv" "diapos" 1725901832 0
+["xelatex"] 1725919957 "diapos.tex" "diapos.xdv" "diapos" 1725919974 0
   "/home/mgl/Bureau/Travail/admin/logos/enc.png" 1695997160 22731 435f44982a12fdab047f6de1a5caee15 ""
   "/home/mgl/Bureau/Travail/admin/logos/ensl.png" 1697364781 2559 58acedd4b7850ffeb55bdb16c829463b ""
   "/home/mgl/Bureau/Travail/admin/logos/logo-ciham.png" 1697364781 22502 7ffcad3839db2036675c482eb8261bdb ""
@@ -20,8 +20,10 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1246382020 928 2dc8d444221b7a635bb58038579b861a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1246382020 908 2921f8a10601f252058503cc6570e581 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1246382020 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1246382020 940 228d6584342e91276bf566bcf9716b83 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -326,13 +328,13 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1684173637 10508480 ca0d87b9cb11f973713bb5de6749bbf1 ""
   "/usr/local/texlive/2023/texmf.cnf" 1687017755 474 5c5a480b7e7204481e07c168f17fecb5 ""
-  "diapos.aux" 1725901821 11116 440bd89b0b24f0e3b745d66e3880e691 "xelatex"
-  "diapos.bbl" 1725899031 466 ee04f40f768daeed26442158e95aba61 "biber diapos"
-  "diapos.nav" 1725901821 5161 17af4c269ec672dbf85c8725e6738931 "xelatex"
-  "diapos.out" 1725901821 2700 a53818caac2a74398f80b8594c8369a8 "xelatex"
-  "diapos.run.xml" 1725901821 2501 8b1931ac6a374afc770dae93dbdf1571 "xelatex"
-  "diapos.tex" 1725901816 13468 fd1579ceaac152eec25b82838919928a ""
-  "diapos.toc" 1725901821 910 f159176fc26c0f66db11164e5d170579 "xelatex"
+  "diapos.aux" 1725919961 15682 fc12bd48ee4879645d20d7bbbeb70f7e "xelatex"
+  "diapos.bbl" 1725919957 29268 7f318ef8b66b465d34118e303c9d5538 "biber diapos"
+  "diapos.nav" 1725919961 5364 53a5d06e5453d4dbec75ba88e09e50dc "xelatex"
+  "diapos.out" 1725919961 2587 edd07b5b247340c6816ca2004f6f4a3b "xelatex"
+  "diapos.run.xml" 1725919961 2419 df33d86bf24cb04a013558b0102aebf7 "xelatex"
+  "diapos.tex" 1725919849 18643 037d10b1174362b0b5ce6fc953c74451 ""
+  "diapos.toc" 1725919961 826 24f204ca25ab8a24eb490052b0fd4416 "xelatex"
   "french-thesis.lbx" 1725887099 330 3b35c33a87cb5d4db416726e25cf91e8 ""
   "img/Borgh_360_190r.png" 1725900115 1182430 72911117cbf5ef508c39a9f8b86f3ca9 ""
   "img/CCC_MSS_283_14r.png" 1725900492 1447330 a9fe46d2f7493f176f816fb94e521763 ""
@@ -343,9 +345,12 @@
   "img/apres_correction.png" 1725890684 191547 d0bbb3734c6060fb40141b227df3a051 ""
   "img/avant_correction.png" 1725890645 199000 fab602ce50ee9fbd57a38e78f2c63774 ""
   "img/base_a.png" 1700429200 80100 de1b235dc5b8f550736d1c257bcb10f3 ""
+  "img/catmus.png" 1725912388 73004 7e6e17acc140384a9d164d5eca57dd2c ""
   "img/ligne_1.png" 1725898248 41039 08e60a34ec7a24f6e391f51d953d3349 ""
   "img/ligne_2.png" 1725898248 35709 36bfcd4e3539cb12b345ffa5d3e4adb4 ""
   "img/segmentation_lignes.png" 1725896219 404021 fc39cab90f75090ae8675f30415c5058 ""
+  "img/snowball.png" 1725910312 59103 e2f4627ca5a2f6dbea65180d5be6d4af ""
+  "img/table_abreviation.png" 1725914300 34597 99163547946dd1f9ab27bd8abd62fa29 ""
   "img/tei_retroconvertible.png" 1725892211 33320 e3e665ceada468c9eb19ee5bc13813d8 ""
   "thesis.dbx" 1725887099 187 988585ad0e11cbfd18643577d361bb2a ""
   (generated)

@@ -16,5 +16,636 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{clerice_EvaluatingDeepLearning_2020}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2c35cdfb1b7a434828d25584008f4362}{%
+           family={Clérice},
+           familyi={C\bibinitperiod},
+           given={Thibault},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Episciences.org}%
+      }
+      \strng{namehash}{2c35cdfb1b7a434828d25584008f4362}
+      \strng{fullhash}{2c35cdfb1b7a434828d25584008f4362}
+      \strng{bibnamehash}{2c35cdfb1b7a434828d25584008f4362}
+      \strng{authorbibnamehash}{2c35cdfb1b7a434828d25584008f4362}
+      \strng{authornamehash}{2c35cdfb1b7a434828d25584008f4362}
+      \strng{authorfullhash}{2c35cdfb1b7a434828d25584008f4362}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Tokenization of modern and old Western European languages seems to be fairly simple, as it stands on the presence mostly of markers such as spaces and punctuation. However, when dealing with old sources like manuscripts written in scripta continua, antiquity epigraphy or Middle Age manuscripts, (1) such markers are mostly absent, (2) spelling variation and rich morphology make dictionary based approaches difficult. Applying convolutional encoding to characters followed by linear categorization to word-boundary or in-word-sequence is shown to be effective at tokenizing such inputs. Additionally, the software is released with a simple interface for tokenizing a corpus or generating a training set.}
+      \field{day}{7}
+      \field{journaltitle}{Journal of Data Mining \& Digital Humanities}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{Evaluating {{Deep Learning Methods}} for {{Word Segmentation}} of {{Scripta Continua Texts}} in {{Old French}} and {{Latin}}}
+      \field{volume}{2020}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/mgl/Bureau/Travail/Bibliotheque_zoteros/storage/68LUR9LP/Clérice - 2020 - Evaluating Deep Learning Methods for Word Segmenta.pdf;/home/mgl/Bureau/Travail/Bibliotheque_zoteros/storage/HBKCHN4P/Clérice - 2020 - Evaluating Deep Learning Methods for Word Segmenta.pdf;/home/mgl/Bureau/Travail/Bibliotheque_zoteros/storage/2A5LI6P8/6264.html;/home/mgl/Bureau/Travail/Bibliotheque_zoteros/storage/P22N4XF7/6264.html
+      \endverb
+      \verb{urlraw}
+      \verb https://jdmdh.episciences.org/6264/pdf
+      \endverb
+      \verb{url}
+      \verb https://jdmdh.episciences.org/6264/pdf
+      \endverb
+    \endentry
+    \entry{clerice_CATMuSMedievalMultilingual_2024a}{inproceedings}{}
+      \name{author}{18}{ul=1}{%
+        {{un=0,uniquepart=base,hash=2c35cdfb1b7a434828d25584008f4362}{%
+           family={Clérice},
+           familyi={C\bibinitperiod},
+           given={Thibault},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=865eef5eb27967d9e0c01708cbad832e}{%
+           family={Pinche},
+           familyi={P\bibinitperiod},
+           given={Ariane},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0adaeb7caa15235a79a1371966d94543}{%
+           family={Vlachou-Efstathiou},
+           familyi={V\bibinithyphendelim E\bibinitperiod},
+           given={Malamatenia},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc32ff2ac91cd2243f4e8a4698b1c437}{%
+           family={Chagué},
+           familyi={C\bibinitperiod},
+           given={Alix},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16d4f02e5493261103bfb3611317d21d}{%
+           family={Camps},
+           familyi={C\bibinitperiod},
+           given={Jean-Baptiste},
+           giveni={J\bibinithyphendelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f61d31c381a669bc6b0e1757b0237960}{%
+           family={Levenson},
+           familyi={L\bibinitperiod},
+           given={Matthias\bibnamedelima Gille},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=15e37a592f5b1fd19a9435d150758dcc}{%
+           family={Brisville-Fertin},
+           familyi={B\bibinithyphendelim F\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ada795856d11497838abddc629547504}{%
+           family={Boschetti},
+           familyi={B\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e583538a8497ee06751e1e19c0c49b17}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Franz},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c52e7b7ac79b452990ec9de1a27bbe3f}{%
+           family={Gervers},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75daaa8140426e4ce0067b8dee51bc1d}{%
+           family={Boutreux},
+           familyi={B\bibinitperiod},
+           given={Agnès},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c10c2a01f96645a15f58cf25cfee319c}{%
+           family={Manton},
+           familyi={M\bibinitperiod},
+           given={Avery},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7fe1ec35c644906499707ac25bc7780b}{%
+           family={Gabay},
+           familyi={G\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02281525624ee3d43b320d2f2661784e}{%
+           family={O’Connor},
+           familyi={O\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90eb5dc01693e59d84d83980813e75fb}{%
+           family={Haverals},
+           familyi={H\bibinitperiod},
+           given={Wouter},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d1ab665c2ba43842d5c50753eec480c}{%
+           family={Kestemont},
+           familyi={K\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99d515aacecfd391d1f344663d3e4466}{%
+           family={Vandyck},
+           familyi={V\bibinitperiod},
+           given={Caroline},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77c03197328a537f9c8626447cee396b}{%
+           family={Kiessling},
+           familyi={K\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=38cc838d45c4b2d981b74e6fcbad5a82}{%
+           family={Barney\bibnamedelima Smith},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Elisa\bibnamedelima H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=0c68669e21dde05e765f1aed0bb9db58}{%
+           family={Liwicki},
+           familyi={L\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=422f6bcb472cf72afccec1d1538827d6}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Liangrui},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature Switzerland}%
+      }
+      \strng{namehash}{8d1ca32d237714aa97e11d22f24ecae9}
+      \strng{fullhash}{5300a7d9697d782a594074b381d3d5c5}
+      \strng{bibnamehash}{5300a7d9697d782a594074b381d3d5c5}
+      \strng{authorbibnamehash}{5300a7d9697d782a594074b381d3d5c5}
+      \strng{authornamehash}{8d1ca32d237714aa97e11d22f24ecae9}
+      \strng{authorfullhash}{5300a7d9697d782a594074b381d3d5c5}
+      \strng{editorbibnamehash}{aae66f523576be2ce19fd315da2ea737}
+      \strng{editornamehash}{aae66f523576be2ce19fd315da2ea737}
+      \strng{editorfullhash}{aae66f523576be2ce19fd315da2ea737}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The surge in digitisation initiatives by Cultural Heritage institutions has facilitated online accessibility to numerous historical manuscripts. However, a substantial portion of these documents exists solely as images, lacking machine-readable text. Handwritten Text Recognition (HTR) has emerged as a crucial tool for converting these images into machine-readable formats, enabling researchers and scholars to analyse vast collections efficiently. Despite significant technological progress, establishing consistent ground truth across projects for HTR tasks, particularly for complex and heterogeneous historical sources like medieval manuscripts in Latin scripts (8th-15th century CE), remains nonetheless challenging.}
+      \field{booktitle}{Document {{Analysis}} and {{Recognition}} - {{ICDAR}} 2024}
+      \field{isbn}{978-3-031-70543-4}
+      \field{langid}{english}
+      \field{shorttitle}{{{CATMuS Medieval}}}
+      \field{title}{{{CATMuS Medieval}}: {{A Multilingual Large-Scale Cross-Century Dataset}} in~{{Latin Script}} for~{{Handwritten Text Recognition}} and~{{Beyond}}}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{174\bibrangedash 194}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1007/978-3-031-70543-4_11
+      \endverb
+    \endentry
+    \entry{gabay_SegmOntoCommonVocabulary_2021}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7fe1ec35c644906499707ac25bc7780b}{%
+           family={Gabay},
+           familyi={G\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16d4f02e5493261103bfb3611317d21d}{%
+           family={Camps},
+           familyi={C\bibinitperiod},
+           given={Jean-Baptiste},
+           giveni={J\bibinithyphendelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=865eef5eb27967d9e0c01708cbad832e}{%
+           family={Pinche},
+           familyi={P\bibinitperiod},
+           given={Ariane},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d48bf71e7a1f56d04892a46765d32dd3}{%
+           family={Jahan},
+           familyi={J\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{19260dbbe635aee5f8a6812d16a87608}
+      \strng{fullhash}{dccce71b2a2c4037e39f8d921ac6f93f}
+      \strng{bibnamehash}{dccce71b2a2c4037e39f8d921ac6f93f}
+      \strng{authorbibnamehash}{dccce71b2a2c4037e39f8d921ac6f93f}
+      \strng{authornamehash}{19260dbbe635aee5f8a6812d16a87608}
+      \strng{authorfullhash}{dccce71b2a2c4037e39f8d921ac6f93f}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{16th {{International Conference}} on {{Document Analysis}} and {{Recognition}} ({{ICDAR}} 2021)}
+      \field{isbn}{978-3030865481}
+      \field{shorttitle}{{{SegmOnto}}}
+      \field{title}{{{SegmOnto}}: Common Vocabulary and Practices for Analysing the Layout of Manuscripts (and More)}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://segmonto.github.io/
+      \endverb
+      \verb{url}
+      \verb https://segmonto.github.io/
+      \endverb
+    \endentry
+    \entry{gillelevenson_RegimientoPrincipesSa_2023}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=237f3e60430254bc9d3619d213685032}{%
+           family={Gille\bibnamedelima Levenson},
+           familyi={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{supervisor}{2}{}{%
+        {{hash=98c49f019e56cd504f383ac0ff751942}{%
+           family={Heusch},
+           familyi={H\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c5f4124f3783d3f9e43454046959937b}{%
+           family={Velasco},
+           familyi={V\bibinitperiod},
+           given={Jesús\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {École Normale Supérieure de Lyon}%
+      }
+      \strng{namehash}{237f3e60430254bc9d3619d213685032}
+      \strng{fullhash}{237f3e60430254bc9d3619d213685032}
+      \strng{bibnamehash}{237f3e60430254bc9d3619d213685032}
+      \strng{authorbibnamehash}{237f3e60430254bc9d3619d213685032}
+      \strng{authornamehash}{237f3e60430254bc9d3619d213685032}
+      \strng{authorfullhash}{237f3e60430254bc9d3619d213685032}
+      \strng{supervisorbibnamehash}{071a2088a9db396a7553358510599469}
+      \strng{supervisornamehash}{071a2088a9db396a7553358510599469}
+      \strng{supervisorfullhash}{071a2088a9db396a7553358510599469}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Le {{Regimiento}} de Los Prínçipes et sa glose : étude et édition numérique de la partie sur le Gouvernement de la cité en temps de guerre ({{III}}, 3).}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://theses.hal.science/tel-04337406
+      \endverb
+      \verb{url}
+      \verb https://theses.hal.science/tel-04337406
+      \endverb
+      \keyw{LIRE}
+    \endentry
+    \entry{gillelevenson_GeneralOpenDataset_2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=237f3e60430254bc9d3619d213685032}{%
+           family={Gille\bibnamedelima Levenson},
+           familyi={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{237f3e60430254bc9d3619d213685032}
+      \strng{fullhash}{237f3e60430254bc9d3619d213685032}
+      \strng{bibnamehash}{237f3e60430254bc9d3619d213685032}
+      \strng{authorbibnamehash}{237f3e60430254bc9d3619d213685032}
+      \strng{authornamehash}{237f3e60430254bc9d3619d213685032}
+      \strng{authorfullhash}{237f3e60430254bc9d3619d213685032}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Submitted to the Journal of Data Mining and Digital Humanities, and accepted. Pending last revisions. Please cite: @article\{gille\_levenson\_2023\_towards, ~author = \{Gille Levenson, Matthias\}, ~date = \{2023\}, ~journaltitle = \{Journal of Data Mining and Digital Humanities\}, ~doi = \{10.5281/zenodo.7387376\}, ~editor = \{Pinche, Ariane and Stokes, Peter\}, ~issuetitle = \{Special Issue: Historical documents and automatic text recognition\}, ~title = \{Towards a general open dataset and models for late medieval Castilian text recognition (HTR/OCR)\}, note = \{Accepted, to be published.\} \} GILLE LEVENSON , Matthias, « Towards a general open dataset and models for late medieval Castilian text recognition (HTR/OCR) », Journal of Data Mining and Digital Humanities (2023) : Special Issue : Historical documents and automatic text recognition, eds. Ariane PINCHE and Peter STOKES, DOI : 10.5281/zenodo.7387376. Link to the data: https://doi.org/10.5281/zenodo.7386489}
+      \field{journaltitle}{Journal of Data Mining and Digital Humanities}
+      \field{langid}{english}
+      \field{title}{Towards a General Open Dataset and Model for Late Medieval {{Castilian}} Text Recognition ({{HTR}}/{{OCR}})}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.46298/jdmdh.10416
+      \endverb
+      \verb{file}
+      \verb /home/mgl/Bureau/Travail/Bibliotheque_zoteros/storage/5US2CGW7/towards.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://zenodo.org/records/8340483
+      \endverb
+      \verb{url}
+      \verb https://zenodo.org/records/8340483
+      \endverb
+    \endentry
+    \entry{haugen_DealingGlyphsCharacters_2013}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a84fc1ee4eb3f08068e841e602d8a6e2}{%
+           family={Haugen},
+           familyi={H\bibinitperiod},
+           given={Odd\bibnamedelima Einar},
+           giveni={O\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cairn/Softwin}%
+      }
+      \strng{namehash}{a84fc1ee4eb3f08068e841e602d8a6e2}
+      \strng{fullhash}{a84fc1ee4eb3f08068e841e602d8a6e2}
+      \strng{bibnamehash}{a84fc1ee4eb3f08068e841e602d8a6e2}
+      \strng{authorbibnamehash}{a84fc1ee4eb3f08068e841e602d8a6e2}
+      \strng{authornamehash}{a84fc1ee4eb3f08068e841e602d8a6e2}
+      \strng{authorfullhash}{a84fc1ee4eb3f08068e841e602d8a6e2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Document numérique}
+      \field{number}{3}
+      \field{shorttitle}{Dealing with Glyphs and Characters}
+      \field{title}{Dealing with Glyphs and Characters: {{Challenges}} in Encoding Medieval Scripts}
+      \field{volume}{16}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{97\bibrangedash 111}
+      \range{pages}{15}
+      \verb{urlraw}
+      \verb https://www.cairn.info/revue-document-numerique-2013-3-page-97.htm
+      \endverb
+      \verb{url}
+      \verb https://www.cairn.info/revue-document-numerique-2013-3-page-97.htm
+      \endverb
+    \endentry
+    \entry{kiessling_KrakenUniversalText_2019}{unpublished}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=77c03197328a537f9c8626447cee396b}{%
+           family={Kiessling},
+           familyi={K\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Utrecht}%
+      }
+      \strng{namehash}{77c03197328a537f9c8626447cee396b}
+      \strng{fullhash}{77c03197328a537f9c8626447cee396b}
+      \strng{bibnamehash}{77c03197328a537f9c8626447cee396b}
+      \strng{authorbibnamehash}{77c03197328a537f9c8626447cee396b}
+      \strng{authornamehash}{77c03197328a537f9c8626447cee396b}
+      \strng{authorfullhash}{77c03197328a537f9c8626447cee396b}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{{{DH2019}} : {{Complexity}}}
+      \field{title}{Kraken - an {{Universal Text Recognizer}} for the {{Humanities}}}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://dev.clariah.nl/files/dh2019/boa/0673.html
+      \endverb
+      \verb{url}
+      \verb https://dev.clariah.nl/files/dh2019/boa/0673.html
+      \endverb
+    \endentry
+    \entry{pinche_CATMuSMedievalConsistentApproaches_2024}{inproceedings}{}
+      \name{author}{17}{}{%
+        {{un=0,uniquepart=base,hash=865eef5eb27967d9e0c01708cbad832e}{%
+           family={Pinche},
+           familyi={P\bibinitperiod},
+           given={Ariane},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c35cdfb1b7a434828d25584008f4362}{%
+           family={Clérice},
+           familyi={C\bibinitperiod},
+           given={Thibault},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc32ff2ac91cd2243f4e8a4698b1c437}{%
+           family={Chagué},
+           familyi={C\bibinitperiod},
+           given={Alix},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16d4f02e5493261103bfb3611317d21d}{%
+           family={Camps},
+           familyi={C\bibinitperiod},
+           given={Jean-Baptiste},
+           giveni={J\bibinithyphendelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0adaeb7caa15235a79a1371966d94543}{%
+           family={Vlachou-Efstathiou},
+           familyi={V\bibinithyphendelim E\bibinitperiod},
+           given={Malamatenia},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f61d31c381a669bc6b0e1757b0237960}{%
+           family={Levenson},
+           familyi={L\bibinitperiod},
+           given={Matthias\bibnamedelima Gille},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=15e37a592f5b1fd19a9435d150758dcc}{%
+           family={Brisville-Fertin},
+           familyi={B\bibinithyphendelim F\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ada795856d11497838abddc629547504}{%
+           family={Boschetti},
+           familyi={B\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e583538a8497ee06751e1e19c0c49b17}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Franz},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c52e7b7ac79b452990ec9de1a27bbe3f}{%
+           family={Gervers},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75daaa8140426e4ce0067b8dee51bc1d}{%
+           family={Boutreux},
+           familyi={B\bibinitperiod},
+           given={Agnès},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c10c2a01f96645a15f58cf25cfee319c}{%
+           family={Manton},
+           familyi={M\bibinitperiod},
+           given={Avery},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7fe1ec35c644906499707ac25bc7780b}{%
+           family={Gabay},
+           familyi={G\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90eb5dc01693e59d84d83980813e75fb}{%
+           family={Haverals},
+           familyi={H\bibinitperiod},
+           given={Wouter},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d1ab665c2ba43842d5c50753eec480c}{%
+           family={Kestemont},
+           familyi={K\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99d515aacecfd391d1f344663d3e4466}{%
+           family={Vandyck},
+           familyi={V\bibinitperiod},
+           given={Caroline},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2208043b0601f788424446f6df9e6b87}{%
+           family={O'Connor},
+           familyi={O\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Washington, D.C.}%
+      }
+      \strng{namehash}{a034d2234e235dfe174512fe5d6b1199}
+      \strng{fullhash}{15cc802d4facf6c13d25683d78c514e3}
+      \strng{bibnamehash}{15cc802d4facf6c13d25683d78c514e3}
+      \strng{authorbibnamehash}{15cc802d4facf6c13d25683d78c514e3}
+      \strng{authornamehash}{a034d2234e235dfe174512fe5d6b1199}
+      \strng{authorfullhash}{15cc802d4facf6c13d25683d78c514e3}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{Digital {{Humanities}} - {{DH2024}}, {{ADHO}}}
+      \field{langid}{english}
+      \field{title}{{{CATMuS-Medieval}}: {{Consistent Approaches}} to {{Transcribing ManuScripts}}}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/mgl/Bureau/Travail/Bibliotheque_zoteros/storage/T48DJCTH/Pinche et al. - CATMuS-Medieval Consistent Approaches to Transcribing ManuScripts.pdf
+      \endverb
+    \endentry
+    \entry{redmon_YouOnlyLook_2016a}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0712b65985612db5b055749502dad611}{%
+           family={Redmon},
+           familyi={R\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0712b65985612db5b055749502dad611}
+      \strng{fullhash}{0712b65985612db5b055749502dad611}
+      \strng{bibnamehash}{0712b65985612db5b055749502dad611}
+      \strng{authorbibnamehash}{0712b65985612db5b055749502dad611}
+      \strng{authornamehash}{0712b65985612db5b055749502dad611}
+      \strng{authorfullhash}{0712b65985612db5b055749502dad611}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Proceedings of the {{IEEE}} Conference on Computer Vision and Pattern Recognition}
+      \field{shorttitle}{You Only Look Once}
+      \field{title}{You Only Look Once: {{Unified}}, Real-Time Object Detection}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/mgl/Bureau/Travail/Bibliotheque_zoteros/storage/MHZF2XTT/Redmon - 2016 - You only look once Unified, real-time object detection.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Redmon_You_Only_Look_CVPR_2016_paper.html
+      \endverb
+      \verb{url}
+      \verb https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Redmon_You_Only_Look_CVPR_2016_paper.html
+      \endverb
+    \endentry
+    \entry{stutzmann_PaleographieStatistiquePour_2010}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7959cd913b05ecfa002f73d8ca7326f9}{%
+           family={Stutzmann},
+           familyi={S\bibinitperiod},
+           given={Dominique},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7959cd913b05ecfa002f73d8ca7326f9}
+      \strng{fullhash}{7959cd913b05ecfa002f73d8ca7326f9}
+      \strng{bibnamehash}{7959cd913b05ecfa002f73d8ca7326f9}
+      \strng{authorbibnamehash}{7959cd913b05ecfa002f73d8ca7326f9}
+      \strng{authornamehash}{7959cd913b05ecfa002f73d8ca7326f9}
+      \strng{authorfullhash}{7959cd913b05ecfa002f73d8ca7326f9}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Electronic texts employing the Text Encoding Initiative (TEI) and the Medieval Unicode Font Initiative (MUFI) provide added value for transcriptions of medieval manuscripts.}
+      \field{booktitle}{Codicology and Palaeography in the Digital Age}
+      \field{langid}{ngerman}
+      \field{title}{Paléographie statistique pour décrire, identifier, dater... Normaliser pour coopérer et aller plus loin\,?}
+      \field{volume}{2}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{pages}{34}
+      \range{pages}{1}
+      \verb{file}
+      \verb /home/mgl/Bureau/Travail/Bibliotheque_zoteros/storage/YWXXZX2B/Stutzmann - Paléographie statistique pour décrire, identifier,.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
