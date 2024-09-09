@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'diapos.blg'
+[65] biber:340> INFO - === lun. sept.  9, 2024, 18:23:51
+[78] Biber.pm:419> INFO - Reading 'diapos.bcf'
+[141] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[151] bbl.pm:660> INFO - Writing 'diapos.bbl' with encoding 'UTF-8'
+[151] bbl.pm:763> INFO - Output to diapos.bbl
+[151] Biber.pm:131> WARN - The file 'diapos.bcf' does not contain any citations!
+[152] Biber.pm:133> INFO - WARNINGS: 1

@@ -1,0 +1,13 @@
+\babel@toc {french}{}\relax 
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Phase de production des données}{10}{0}{2}
+\beamer@subsectionintoc {2}{1}{Penser la production en amont}{11}{0}{2}
+\beamer@subsectionintoc {2}{2}{CATMuS, un projet de production collaboratif de données}{15}{0}{2}
+\beamer@subsectionintoc {2}{3}{Concilier l'intérêt particulier et les besoins généraux}{17}{0}{2}
+\beamer@sectionintoc {3}{Après l'HTR: tout change / rien ne change}{19}{0}{3}
+\beamer@subsectionintoc {3}{1}{Quand s'arrête la correction ?}{20}{0}{3}
+\beamer@subsectionintoc {3}{2}{Structurer les documents}{23}{0}{3}
+\beamer@subsectionintoc {3}{3}{Segmenter le texte et identifier la césure}{24}{0}{3}
+\beamer@subsectionintoc {3}{4}{Résoudre les abréviations}{29}{0}{3}
+\beamer@subsectionintoc {3}{5}{Et l'édition critique ?}{30}{0}{3}
+\beamer@sectionintoc {4}{Conclusions}{32}{0}{4}
