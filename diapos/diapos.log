@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.15)  10 SEP 2024 00:12
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.15)  10 SEP 2024 14:44
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1816,7 +1816,7 @@ File: img/base_a.png Graphic file (type bmp)
 File: img/YOLO_identification.png Graphic file (type bmp)
 <img/YOLO_identification.png>
 
-Overfull \vbox (9.92606pt too high) detected at line 164
+Overfull \vbox (9.92606pt too high) detected at line 172
  []
 
 [6
@@ -1864,105 +1864,104 @@ File: img/snowball.png Graphic file (type bmp)
  [15
 
 
-] [16
+]
+File: img/snowball.png Graphic file (type bmp)
+<img/snowball.png>
+ [16
 
 
 ]
-File: img/catmus.png Graphic file (type bmp)
-<img/catmus.png>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 231
+File: img/snowball.png Graphic file (type bmp)
+<img/snowball.png>
+ [17
+
+
+]
+File: img/catmus_img.png Graphic file (type bmp)
+<img/catmus_img.png>
+ [18
+
+
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 256
 .
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 231
+LaTeX Font Info:    Trying to load font information for U+msb on input line 256
 .
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [17
-
-
-] [18
+)
+File: img/training_results.png Graphic file (type bmp)
+<img/training_results.png>
+ [19
 
 
 ]
-[19
+File: img/training_results.png Graphic file (type bmp)
+<img/training_results.png>
+ [20
 
 
-] [20
+]
+[21
 
 
-] (./diapos.toc) [21
+]
+File: img/exemple_transcription.png Graphic file (type bmp)
+<img/exemple_transcription.png>
+ [22
 
 
-] [22
+]
+File: img/exemple_transcription.png Graphic file (type bmp)
+<img/exemple_transcription.png>
+ [23
+
+
+] [24
+
+
+] (./diapos.toc) [25
+
+
+] [26
 
 
 ]
 File: img/tei_retroconvertible.png Graphic file (type bmp)
 <img/tei_retroconvertible.png>
- [23
+ [27
 
 
 ]
 File: img/alto.png Graphic file (type bmp)
 <img/alto.png>
- [24
+ [28
 
 
 ]
 File: img/segmentation_lignes.png Graphic file (type bmp)
 <img/segmentation_lignes.png>
- [25
+ [29
 
 
 ]
 File: img/Valladolid_251_17r.png Graphic file (type bmp)
 <img/Valladolid_251_17r.png>
-File: img/Borgh_360_190r.png Graphic file (type bmp)
-<img/Borgh_360_190r.png>
 File: img/CCC_MSS_283_14r.png Graphic file (type bmp)
 <img/CCC_MSS_283_14r.png>
+File: img/Borgh_360_190r.png Graphic file (type bmp)
+<img/Borgh_360_190r.png>
+File: img/BNF_esp_36_1v.png Graphic file (type bmp)
+<img/BNF_esp_36_1v.png>
+File: img/BNE_958_14r.png Graphic file (type bmp)
+<img/BNE_958_14r.png>
 File: img/Valencia_BH-Ms-0594_23r.png Graphic file (type bmp)
 <img/Valencia_BH-Ms-0594_23r.png>
-
-Overfull \vbox (10.80482pt too high) detected at line 379
- []
-
-[26
-
-
-]
-File: img/ligne_1.png Graphic file (type bmp)
-<img/ligne_1.png>
-File: img/ligne_2.png Graphic file (type bmp)
-<img/ligne_2.png>
- [27
-
-
-]
-File: img/ligne_1.png Graphic file (type bmp)
-<img/ligne_1.png>
-File: img/ligne_2.png Graphic file (type bmp)
-<img/ligne_2.png>
- [28
-
-
-]
-File: img/ligne_1.png Graphic file (type bmp)
-<img/ligne_1.png>
-File: img/ligne_2.png Graphic file (type bmp)
-<img/ligne_2.png>
- [29
-
-
-]
-File: img/ligne_1.png Graphic file (type bmp)
-<img/ligne_1.png>
-File: img/ligne_2.png Graphic file (type bmp)
-<img/ligne_2.png>
  [30
 
 
@@ -1971,51 +1970,74 @@ File: img/ligne_1.png Graphic file (type bmp)
 <img/ligne_1.png>
 File: img/ligne_2.png Graphic file (type bmp)
 <img/ligne_2.png>
+File: img/ligne_3.png Graphic file (type bmp)
+<img/ligne_3.png>
  [31
+
+
+]
+File: img/ligne_1.png Graphic file (type bmp)
+<img/ligne_1.png>
+File: img/ligne_2.png Graphic file (type bmp)
+<img/ligne_2.png>
+File: img/ligne_3.png Graphic file (type bmp)
+<img/ligne_3.png>
+ [32
+
+
+]
+File: img/ligne_1.png Graphic file (type bmp)
+<img/ligne_1.png>
+File: img/ligne_2.png Graphic file (type bmp)
+<img/ligne_2.png>
+File: img/ligne_3.png Graphic file (type bmp)
+<img/ligne_3.png>
+
+[33
 
 
 ]
 File: img/table_abreviation.png Graphic file (type bmp)
 <img/table_abreviation.png>
- [32
+ [34
 
 
-] [33
+] [35
 
 
 ]
 File: img/avant_correction.png Graphic file (type bmp)
 <img/avant_correction.png>
 
-Overfull \vbox (5.28235pt too high) detected at line 435
+Overfull \vbox (5.28235pt too high) detected at line 494
  []
 
-[34
+[36
 
 
 ]
 File: img/apres_correction.png Graphic file (type bmp)
 <img/apres_correction.png>
 
-Overfull \vbox (8.26845pt too high) detected at line 451
+Overfull \vbox (8.26845pt too high) detected at line 511
  []
 
-[35
+[37
 
 
-] (./diapos.toc) [36
-
-
-] [37
-
-
-] [38
+] (./diapos.toc) [38
 
 
 ] [39
 
 
 ] [40
+
+
+] [41
+
+
+] [42
 
 
 ]
@@ -2028,24 +2050,24 @@ Overfull \vbox (8.26845pt too high) detected at line 451
 \tf@snm=\write9
 \openout9 = `diapos.snm'.
 
- [41
+ [43
 
 
 
 ] (./diapos.aux)
 Package rerunfilecheck Info: File `diapos.out' has not changed.
-(rerunfilecheck)             Checksum: EDD07B5B247340C6816CA2004F6F4A3B;2587.
+(rerunfilecheck)             Checksum: 34CF33FAB30CCF7CF000F8C22082930F;2465.
 Package logreq Info: Writing requests to 'diapos.run.xml'.
 \openout1 = `diapos.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52257 strings out of 476709
- 1259787 string characters out of 5804145
- 2219286 words of memory out of 5000000
- 71527 multiletter control sequences out of 15000+600000
- 518228 words of font info for 90 fonts, out of 8000000 for 9000
+ 52306 strings out of 476709
+ 1261178 string characters out of 5804145
+ 2219334 words of memory out of 5000000
+ 71569 multiletter control sequences out of 15000+600000
+ 518244 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,15n,122p,1108b,5698s stack positions out of 10000i,1000n,20000p,10000000b,200000s
+ 128i,15n,122p,1108b,5716s stack positions out of 10000i,1000n,20000p,10000000b,200000s
 
-Output written on diapos.xdv (40 pages, 798164 bytes).
+Output written on diapos.xdv (42 pages, 893296 bytes).

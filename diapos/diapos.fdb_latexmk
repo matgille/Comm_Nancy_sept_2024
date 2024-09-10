@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber diapos"] 1725919955 "diapos.bcf" "diapos.bbl" "diapos" 1725919974 0
+["biber diapos"] 1725971042 "diapos.bcf" "diapos.bbl" "diapos" 1725972264 0
   "./biblio.bib" 1725919677 34904 5552825bcf7851b1a6b61b7947957270 ""
-  "diapos.bcf" 1725919961 110786 b4c2469bcd7ec0a28b7cb5547a40013e "xelatex"
+  "diapos.bcf" 1725972251 111091 5910371bf13029eb365f82a1a76ac051 "xelatex"
   (generated)
   "diapos.bbl"
   "diapos.blg"
   (rewritten before read)
-["xdvipdfmx"] 1725919961 "diapos.xdv" "diapos.pdf" "diapos" 1725919974 0
-  "diapos.xdv" 1725919961 798164 83044320570bc3208d4260c8b7767a3a "xelatex"
+["xdvipdfmx"] 1725972251 "diapos.xdv" "diapos.pdf" "diapos" 1725972264 0
+  "diapos.xdv" 1725972251 893296 d94dd5cd4497a2354019ad2796abb42b "xelatex"
   (generated)
   "diapos.pdf"
   (rewritten before read)
-["xelatex"] 1725919957 "diapos.tex" "diapos.xdv" "diapos" 1725919974 0
+["xelatex"] 1725972247 "diapos.tex" "diapos.xdv" "diapos" 1725972264 0
   "/home/mgl/Bureau/Travail/admin/logos/enc.png" 1695997160 22731 435f44982a12fdab047f6de1a5caee15 ""
   "/home/mgl/Bureau/Travail/admin/logos/ensl.png" 1697364781 2559 58acedd4b7850ffeb55bdb16c829463b ""
   "/home/mgl/Bureau/Travail/admin/logos/logo-ciham.png" 1697364781 22502 7ffcad3839db2036675c482eb8261bdb ""
@@ -328,14 +328,16 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1684173637 10508480 ca0d87b9cb11f973713bb5de6749bbf1 ""
   "/usr/local/texlive/2023/texmf.cnf" 1687017755 474 5c5a480b7e7204481e07c168f17fecb5 ""
-  "diapos.aux" 1725919961 15682 fc12bd48ee4879645d20d7bbbeb70f7e "xelatex"
-  "diapos.bbl" 1725919957 29268 7f318ef8b66b465d34118e303c9d5538 "biber diapos"
-  "diapos.nav" 1725919961 5364 53a5d06e5453d4dbec75ba88e09e50dc "xelatex"
-  "diapos.out" 1725919961 2587 edd07b5b247340c6816ca2004f6f4a3b "xelatex"
-  "diapos.run.xml" 1725919961 2419 df33d86bf24cb04a013558b0102aebf7 "xelatex"
-  "diapos.tex" 1725919849 18643 037d10b1174362b0b5ce6fc953c74451 ""
-  "diapos.toc" 1725919961 826 24f204ca25ab8a24eb490052b0fd4416 "xelatex"
+  "diapos.aux" 1725972251 16127 1b33f97af976a7b047e8e16c0bef8725 "xelatex"
+  "diapos.bbl" 1725971043 29268 7f318ef8b66b465d34118e303c9d5538 "biber diapos"
+  "diapos.nav" 1725972251 5298 fa071af964e5284747fc2d700efb6dfa "xelatex"
+  "diapos.out" 1725972251 2465 34cf33fab30ccf7cf000f8c22082930f "xelatex"
+  "diapos.run.xml" 1725972251 2419 df33d86bf24cb04a013558b0102aebf7 "xelatex"
+  "diapos.tex" 1725972246 21726 dd7c42cdda15e77b80f92ccbf219c930 ""
+  "diapos.toc" 1725972251 804 aa50350b28e94ce5cb3fb961a2b01650 "xelatex"
   "french-thesis.lbx" 1725887099 330 3b35c33a87cb5d4db416726e25cf91e8 ""
+  "img/BNE_958_14r.png" 1725956466 307853 f04c7d179af01853eb55c5bcffbf7a94 ""
+  "img/BNF_esp_36_1v.png" 1725957444 594707 a6dcc4fbd1fa7db42e439e4de4c906aa ""
   "img/Borgh_360_190r.png" 1725900115 1182430 72911117cbf5ef508c39a9f8b86f3ca9 ""
   "img/CCC_MSS_283_14r.png" 1725900492 1447330 a9fe46d2f7493f176f816fb94e521763 ""
   "img/Valencia_BH-Ms-0594_23r.png" 1725900580 690878 391a1edc946198710b37f5a62b271fa2 ""
@@ -345,13 +347,16 @@
   "img/apres_correction.png" 1725890684 191547 d0bbb3734c6060fb40141b227df3a051 ""
   "img/avant_correction.png" 1725890645 199000 fab602ce50ee9fbd57a38e78f2c63774 ""
   "img/base_a.png" 1700429200 80100 de1b235dc5b8f550736d1c257bcb10f3 ""
-  "img/catmus.png" 1725912388 73004 7e6e17acc140384a9d164d5eca57dd2c ""
+  "img/catmus_img.png" 1725963692 779057 70bb243ea7ae1526b0832063e27a96f0 ""
+  "img/exemple_transcription.png" 1725962296 257080 36b2b8e5f3e5debbf8d947c15d978565 ""
   "img/ligne_1.png" 1725898248 41039 08e60a34ec7a24f6e391f51d953d3349 ""
   "img/ligne_2.png" 1725898248 35709 36bfcd4e3539cb12b345ffa5d3e4adb4 ""
+  "img/ligne_3.png" 1725962859 30898 00d0175ab73aa27f8254436421f2743b ""
   "img/segmentation_lignes.png" 1725896219 404021 fc39cab90f75090ae8675f30415c5058 ""
   "img/snowball.png" 1725910312 59103 e2f4627ca5a2f6dbea65180d5be6d4af ""
   "img/table_abreviation.png" 1725914300 34597 99163547946dd1f9ab27bd8abd62fa29 ""
   "img/tei_retroconvertible.png" 1725892211 33320 e3e665ceada468c9eb19ee5bc13813d8 ""
+  "img/training_results.png" 1725961479 73534 026fe5f84ab663cd01f166ca1f54b5a9 ""
   "thesis.dbx" 1725887099 187 988585ad0e11cbfd18643577d361bb2a ""
   (generated)
   "diapos.aux"
